@@ -1,0 +1,397 @@
+/* 注册login */
+
+#login-wrapper {
+    overflow: scroll;
+}
+
+#login-header {
+    height: 32vh;
+    background: url(../img/login1.png) no-repeat;
+    background-size: 100% 32vh;
+    z-index: 10000;
+}
+
+#login-contentwrapper {
+    background: url(../img/login2.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 20px 40px;
+}
+
+.login-content {
+    padding: 10px 0;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.content-header {
+    border-bottom: 1px solid #eee;
+    height: 36px;
+    line-height: 16px;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: 400;
+    color: #003791;
+}
+
+.content-tab {
+    width: 100%;
+}
+
+.content-tab .nav-tabs {
+    width: 100%;
+    background: #7380c4;
+    margin: 0;
+    padding: 5px;
+    float: right;
+}
+
+.content-tab .nav-tabs li {
+    float: right;
+    list-style: none;
+    color: #fff;
+    padding: 0 10px;
+}
+
+.content-tab .nav-tabs li.line {
+    border-left: 2px solid #a0b0f1;
+}
+
+.content {
+    padding: 0 10px 10px 10px;
+}
+
+.tab-content .title {
+    height: 20px;
+    line-height: 16px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+    margin: 5px 0;
+    display: inline-block;
+    color: #d98511;
+    border-bottom: 1px solid #818cc6;
+    margin-bottom: 10px;
+}
+
+.tab-content span {
+    color: #f00;
+}
+
+.tab-content p {
+    color: #042290;
+    margin: 0;
+}
+
+.tab-content input {
+    border: 1px solid #c7c7c7;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+/* 注册loginmenber */
+
+#loginmenber-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 32vh;
+    background: url(../img/login1.png) no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    z-index: 10000;
+}
+
+#loginmenber-contentwrapper {
+    position: fixed;
+    top: 32vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(../img/login2.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 20px 40px;
+}
+
+.loginmenber-content {
+    padding: 10px 0;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+
+.content-header {
+    border-bottom: 1px solid #eee;
+    height: 36px;
+    line-height: 16px;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: 400;
+    color: #003791;
+}
+
+.content-tab {
+    width: 100%;
+}
+
+.content {
+    padding: 0 10px 10px 10px;
+}
+
+.tab-content .title {
+    height: 20px;
+    line-height: 16px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+    margin: 5px 0;
+    display: inline-block;
+    color: #d98511;
+    border-bottom: 1px solid #818cc6;
+    margin-bottom: 10px;
+}
+
+.tab-content span {
+    color: #f00;
+}
+
+.tab-content p {
+    color: #042290;
+    margin: 0;
+}
+
+.tab-content input {
+    border: 1px solid #c7c7c7;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: #042290;
+}
+
+.tab-content span.child {
+    color: #003791;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 20px;
+}
+
+/* 导购码captcha */
+
+#captcha-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 40vh;
+    background: url(../img/redpacket2.png) no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    z-index: 10000;
+}
+
+#captcha-contentwrapper {
+    position: fixed;
+    top: 40vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(../img/guideshopping1.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.captcha-content {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.captcha-content input {
+    padding: 10px 30px;
+    margin-top: 10px;
+    border: 1px solid #eee;
+    border-radius: 15px;
+}
+
+.captcha-content img {
+    height: 20vh;
+    width: 80vw;
+    margin-top: 5vh;
+}
+
+.captcha-redpacket {
+    margin-top: 50px;
+}
+
+/* 红包redpacket */
+
+#redpacket-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 33vh;
+    background: url(../img/redpacket3.png) no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    z-index: 10000;
+}
+
+#redpacket-contentwrapper {
+    position: fixed;
+    top: 33vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(../img/redpacket1.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.redpacket-content {
+    text-align: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.bg-wrapper {
+    position: absolute;
+    top: 35%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 51vw;
+    height: 12vh;
+    background: url(../img/rp.png) no-repeat;
+    background-size: 100%;
+}
+
+.bg-left {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    height: 100%;
+}
+
+.bg-left span {
+    font-size: 5vw;
+    color: #fff;
+    height: 12vh;
+    line-height: 12vh;
+}
+
+.bg-left span strong {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.bg-right {
+    position: absolute;
+    top: 0;
+    right: -5px;
+}
+
+.bg-right button {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 5vw;
+}
+
+/* .bg-right p {
+    font-size: 5vw;
+    color: #fff;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 10px;
+    flex-direction: column;
+    flex: 1;
+} */
+
+/* .detail {
+    border: 1px solid #d98511;
+    border-radius: 5px;
+    padding: 2px 5px;
+    position: absolute;
+    bottom: -7vh;
+    right: 20vw;
+} */
+
+.well {
+    background: #fd3538;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#hide {
+    border-radius: 5px;
+    padding: 0;
+    border: 2px solid #4a250a;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 10000;
+    overflow: scroll;
+    background: #fff2cd;
+}
+
+/* 红包历史纪录history */
+
+#history {
+    background: #ee7100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+    overflow-y: scroll;
+}
+
+#history-wrapper .title {
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    color: #000;
+    font-size: 16px;
+}
+
+#history-wrapper .bg-img {
+    width: 70vw;
+    background: url(../img/rp1.png) no-repeat;
+    background-size: 100%;
+}
+
+.redpacket-content1 {
+    text-align: center;
+    position: relative;
+    width: 80%;
+    padding: 10px 0;
+    border: 1px solid #f1fcf9;
+    margin: 10px auto;
+}
+
+.bg-wrapper1 {
+    position: relative;
+    height: 14vh;
+}
+
+.bg-right1 {
+    position: absolute;
+    top: 10px;
+    right: 10vw;
+}
+
+.bg-right1 p {
+    font-size: 5vw;
+    color: #fff;
+    font-weight: 400;
+    line-height: 6vh;
+    margin: 0;
+}
